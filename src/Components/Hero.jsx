@@ -18,7 +18,7 @@ function Hero() {
                 <div className='flex justify-center flex-col items-center md:block text-center md:text-start gap-2 ' >
                     <h1 className=" text-[16px]  text-[#0FF1F6] md:text-[24px] font-bold font-Montserrat ">{HeroItem.Heading}</h1>
                     <h2 className=" w-[300px] text-[#FFF] leading-tight font-[700] md:w-[400px] text-[40px] font-Montserrat md:text-[64px] mt-4">{HeroItem.Title}</h2>
-                    <p className=" text-[18px] font-[300] text-[#FFF] md:text-[20px] w-[343px] md:w-[450px] font-Work_Sans ">{HeroItem.content}</p>
+                    <p className=" text-[16px] font-[300] text-[#FFF] md:text-[20px] w-[343px] md:w-[450px] font-Work_Sans ">{HeroItem.content}</p>
                 </div>
                 <div className='px-4 md:px-0 mt-[24px] ' >
                     <Button
