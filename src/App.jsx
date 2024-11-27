@@ -6,6 +6,7 @@ import Company from './Components/Company';
 import { CardSection } from './Components/CardSection';
 import { Train } from './Components/Train';
 import { SliderSection } from './Components/SliderSection';
+import { Improvement } from './Components/Improvment';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <CardSection/>
       <Train/>
       <SliderSection/>
+      <Improvement/>
     </main>
   );
 }

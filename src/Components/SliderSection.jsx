@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CommaIcon from "../../public/comma.png"; // সঠিক পাথ চেক করুন
+import CommaIcon from "../../public/comma.png";
 
 export const SliderSection = () => {
     const SliderItems = [
