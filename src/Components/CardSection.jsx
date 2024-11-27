@@ -24,9 +24,9 @@ export const CardSection = () => {
         },
     ];
 
-    // All these cards are designed using the card component inside utilities.
+    // All these cards are designed using the card component inside Shared.
     return (
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
+        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-[120px]">
             {cardItems.map((item, key) => (
                 <Card
                     key={key}
