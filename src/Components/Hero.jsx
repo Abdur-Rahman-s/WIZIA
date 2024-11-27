@@ -23,7 +23,7 @@ function Hero() {
                 <div className='px-4 md:px-0 mt-[24px] ' >
                     <Button
                         radius="full"
-                        className="bg-[#0FF1F6] text-black font-Work_Sans text-sm w-full md:w-auto  hover:bg-white transition-transform duration-300"
+                        className="bg-[#0FF1F6] animate-bounce text-black font-Work_Sans text-sm w-full md:w-auto  hover:bg-white transition-transform duration-300"
                     >
                         Sign Up for the Beta 
                         <img src={ExportIcom} alt="" />
