@@ -11,7 +11,7 @@ export const CardSection = () => {
             imagesName: 'aiDRs',
         },
         {
-            image: '/image_2.svg', 
+            image: '/Image_2.svg', 
             Heading: 'Infinitely Scalable',
             Title: 'Train an aiDR on a patch. When you are happy with the results, scale it effortlessly.',
             imagesName: 'aiDRs',
