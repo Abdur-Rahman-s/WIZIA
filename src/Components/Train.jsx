@@ -18,7 +18,7 @@ export const Train = () => {
     ];
 
     return (
-        <section className="train-section w-[92%] mx-auto rounded-3xl bg-[#07292F] px-8 lg:px-28 py-12 relative overflow-hidden">
+        <section className="train-section w-[92%] mx-auto rounded-3xl px-8 lg:px-28 py-12 relative overflow-hidden">
             {/* Responsive Images */}
             <img
                 src={BGImage}
