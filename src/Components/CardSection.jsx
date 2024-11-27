@@ -5,24 +5,25 @@ export const CardSection = () => {
 
     const cardItems = [
         {
-            image: '../../public/image_1.svg',
+            image: '/image_1.svg', 
             Heading: 'You’re in Control',
             Title: 'aiDRs operate based on your rules. You guide the machine, the aiDRs execute the work.',
             imagesName: 'aiDRs',
         },
         {
-            image: '../../public/image_2.svg',
+            image: '/image_2.svg', 
             Heading: 'Infinitely Scalable',
             Title: 'Train an aiDR on a patch. When you are happy with the results, scale it effortlessly.',
             imagesName: 'aiDRs',
         },
         {
-            image: '../../public/image_3.svg',
+            image: '/image_3.svg', 
             Heading: 'Incredibly Flexible',
             Title: 'Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time.',
             imagesName: 'aiDRs',
         },
     ];
+    
 
     // All these cards are designed using the card component inside Shared.
     return (
