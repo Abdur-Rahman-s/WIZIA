@@ -1,6 +1,6 @@
 import React from 'react';
-import TrainImage from '../../public/TrainImage.png';
-import BGImage from '../../public/BG.png';
+import TrainImage from '/TrainImage.png'; 
+import BGImage from '/BG.png'; 
 
 export const Train = () => {
     const element = [
@@ -10,13 +10,13 @@ export const Train = () => {
             content: 'You’re in control. Train your aiDR on elements of your Marketing strategy.',
         },
     ];
-    const secondElement = [
-        { image: '../../public/ph_check-circle-duotone.png', title: 'Quick to ramp' },
-        { image: '../../public/ph_check-circle-duotone.png', title: 'Easy to optimize' },
-        { image: '../../public/ph_check-circle-duotone.png', title: 'Quick to scale up' },
-        { image: '../../public/ph_check-circle-duotone.png', title: 'Works with all your existing tools' },
-    ];
 
+    const secondElement = [
+        { image: '/ph_check-circle-duotone.png', title: 'Quick to ramp' }, 
+        { image: '/ph_check-circle-duotone.png', title: 'Easy to optimize' }, 
+        { image: '/ph_check-circle-duotone.png', title: 'Quick to scale up' },
+        { image: '/ph_check-circle-duotone.png', title: 'Works with all your existing tools' }, 
+    ];
     return (
         <section className="train-section w-[92%] mx-auto rounded-3xl px-8 lg:px-28 py-12 relative overflow-hidden">
             {/* Responsive Images */}
