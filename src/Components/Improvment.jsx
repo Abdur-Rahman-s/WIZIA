@@ -15,19 +15,19 @@ export const Improvement = () => {
 
     return (
         <section
-            className="improvement-section w-[92%] mx-auto rounded-3xl h-fit bg-[#07292F] px-8 lg:px-28 py-12 relative overflow-hidden animate-fade-in"
+            className="improvement-section w-[92%] mx-auto h-fit px-8 lg:px-28 py-12 relative overflow-hidden animate-fade-in"
             aria-labelledby="improvement-heading"
         >
             {/* Background Images */}
             <img
                 src="../../public/Group11.png"
                 alt="Background for larger devices"
-                className="absolute inset-0 w-full h-full object-cover object-center opacity-50 z-10 hidden sm:block"
+                className="absolute inset-0 w-full h-full rounded-3xl  object-cover object-center opacity-50 z-10 hidden sm:block"
             />
             <img
                 src="/BG.png"
                 alt="Background for small devices"
-                className="absolute inset-0 w-full h-full object-cover object-center opacity-50 z-10 block sm:hidden"
+                className="absolute inset-0 w-full h-full rounded-3xl  object-cover object-center opacity-50 z-10 block sm:hidden"
             />
 
             {/* Text Content */}
