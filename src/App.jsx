@@ -7,6 +7,8 @@ import { CardSection } from './Components/CardSection';
 import { Train } from './Components/Train';
 import { SliderSection } from './Components/SliderSection';
 import { Improvement } from './Components/Improvment';
+import BetaSignUp from './Components/BetaSingUp';
+import Footer from './Components/Footer';
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
       <Train/>
       <SliderSection/>
       <Improvement/>
+      <BetaSignUp/>
+      <Footer/>
     </main>
   );
 }
