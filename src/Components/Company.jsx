@@ -2,12 +2,12 @@ import React from 'react'
 
 const Company = () => {
     const Images = {
-        BackHub: '../../public/BackHub.png',
-        CableLabs: '../../public/CableLabs.png',
-        Dbs: '../../public/DBS.svg',
-        EasYUro: '../../public/EasyEuro.svg',
-        Amd: '../../public/AMD.svg',
-    }
+        BackHub: '/BackHub.png',
+        CableLabs: '/CableLabs.png',
+        Dbs: '/DBS.svg',
+        EasYUro: '/EasyEuro.svg',
+        Amd: '/AMD.svg',
+    };
     return (
         <section id='Company-section' className=' py-8 gap-6 flex flex-col bg-[#07292F]' >
                 <div><p className='text-center capitalize font-Work_Sans text-[#0FF1F6] ' >our trusted partners</p></div>
