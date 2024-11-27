@@ -18,17 +18,18 @@ export const Improvement = () => {
             className="improvement-section w-[92%] mx-auto h-fit px-8 lg:px-28 py-12 relative overflow-hidden animate-fade-in"
             aria-labelledby="improvement-heading"
         >
-            {/* Background Images */}
             <img
-                src="../../public/Group11.png"
+                src="/Group11.png"  // Correct path for large screens
                 alt="Background for larger devices"
-                className="absolute inset-0 w-full h-full rounded-3xl  object-cover object-center opacity-50 z-10 hidden sm:block"
+                className="absolute inset-0 w-full h-full rounded-3xl object-cover object-center opacity-50 z-10 hidden sm:block"
             />
+
             <img
-                src="/BG.png"
+                src="/BG.png"  // Correct path for small devices
                 alt="Background for small devices"
-                className="absolute inset-0 w-full h-full rounded-3xl  object-cover object-center opacity-50 z-10 block sm:hidden"
+                className="absolute inset-0 w-full h-full rounded-3xl object-cover object-center opacity-50 z-10 block sm:hidden"
             />
+
 
             {/* Text Content */}
             <div className="relative z-20 text-left">
